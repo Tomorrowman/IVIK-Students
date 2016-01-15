@@ -28,7 +28,7 @@ public class StudentExamScores {
         for (int i=0; i<=students.length-1; i++){
             String name=students[i].getName();
             double score=students[i].getScore();
-            System.out.format("%12s%4s%n", name, score);
+            System.out.format("%4s%9s%n", name, score);
         }
     }
 

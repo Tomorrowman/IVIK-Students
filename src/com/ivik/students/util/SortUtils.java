@@ -10,7 +10,7 @@ public class SortUtils {
         boolean sorted=false;
         while (!sorted){
             sorted=true;
-            for (int i =0; i<=students.length-1; i++) {
+            for (int i =0; i<students.length-1; i++) {
                 if (students[i].getScore() > students[i+1].getScore()){
                     Student tmp = students[i];
                     students[i] = students[i+1];
